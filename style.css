@@ -1,0 +1,42 @@
+html {
+	background-color: rgb(66, 66, 66);
+	overflow: hidden;
+}
+
+body {
+
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+	max-width: 1440px;
+	height: 100%;
+
+	position: absolute;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+h1 {
+	width: 30ch;
+
+	color: rgb(194, 194, 194);
+	font-size: 5em;
+	font-family: monospace;
+	font-weight: normal;
+}
+
+.console-underscore {
+	display: inline-block;
+	position: relative;
+	top: -0.14em;
+	left: -5px;
+}
+
+.hidden {
+	opacity: 0;
+}
