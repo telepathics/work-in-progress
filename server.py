@@ -15,12 +15,11 @@ class Handler(BaseHTTPRequestHandler):
 		self.send_header("Access-Control-Allow-Credentials", "true")
 		BaseHTTPRequestHandler.end_headers(self)
 
-	def handle404(self):
-		self.send_response(404)
+	def handleError(self, status_code, error):
+		self.send_response(status_code)
 		self.send_header("Content-Type", "text/plain")
 		self.end_headers()
-
-		self.wfile.write("Not found.".encode("utf-8"))
+		self.wfile.write(error.encode("utf-8"))
 
 	def checkPath(self, mask):
 		mask_parts = mask[1:].split("/")
