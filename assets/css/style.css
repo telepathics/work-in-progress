@@ -1,5 +1,4 @@
-
-/* - - - - - - - - 
+/* - - - - - - - -
 
 CSS GUIDELINES TEMPLATE {
 	margin: 0;
@@ -34,14 +33,11 @@ CSS GUIDELINES TEMPLATE {
 
 	animation, @keyframes;
 	transform, perspective;
-	transition;	
+	transition;
 
 }
 
 - - - - - - - - - */
-
-
-
 
 html {
 	overflow: hidden;

@@ -71,4 +71,3 @@ function terminalText(word) {
 
 	}, 1500);
 }
-
